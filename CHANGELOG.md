@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.3.24](https://github.com/k8sgpt-ai/k8sgpt/compare/v0.3.23...v0.3.24) (2023-12-08)
+
+
+### Other
+
+* **deps:** update actions/setup-go action to v5 ([#788](https://github.com/k8sgpt-ai/k8sgpt/issues/788)) ([d00ed33](https://github.com/k8sgpt-ai/k8sgpt/commit/d00ed33678b1560a3996f1d735d84ca0ca05c0b0))
+* **deps:** update anchore/sbom-action action to v0.15.1 ([#784](https://github.com/k8sgpt-ai/k8sgpt/issues/784)) ([6473a2b](https://github.com/k8sgpt-ai/k8sgpt/commit/6473a2b532491b707b3af922fc2198e626ebf219))
+* **deps:** update google-github-actions/release-please-action action to v4 ([#782](https://github.com/k8sgpt-ai/k8sgpt/issues/782)) ([2c28c55](https://github.com/k8sgpt-ai/k8sgpt/commit/2c28c555cf4e891b90ebd9e9eae1cd8724e9886f))
+
+
+### Refactoring
+
+* replace rest client with controller-runtime clientset for Trivy analyzers ([#776](https://github.com/k8sgpt-ai/k8sgpt/issues/776)) ([1d19628](https://github.com/k8sgpt-ai/k8sgpt/commit/1d196286b75f0ea6c068e8bdb01455fb36c52432))
+
 ## [0.3.23](https://github.com/k8sgpt-ai/k8sgpt/compare/v0.3.22...v0.3.23) (2023-11-24)
 
 
